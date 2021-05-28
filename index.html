@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Quiz using Javascript with Bootstrap</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body>
+
+<!-- /top section/ -->
+	<div class="header-wrapper py-3 bg-white text-center">
+		<div class="container">		
+			<h1 class="text-primary display-3 my-4">General Quiz</h1>
+		</div>
+	</div>
+
+<!-- Show Score -->
+	<div class="result py-4 d-none bg-light text-center">
+		<div class="container lead">
+			<p>You've got a<span class="text-primary display-4 p-3">0%</span> correct answer!</p>
+		</div>
+	</div>
+
+<!-- questions -->
+	<div class="body-wrapper py-3 bg-primary">
+		<div class="container">
+			<h2 class="my-5 text-white">Questions:</h2>
+			<form class="quiz-form text-light">
+				<div class="question my-5">
+					<p class="lead font-weight-normal">1. What is the sum of 1 apple and 3 apples</p>
+					<div class="form-check my-2 text-white-50">
+					  <input type="radio" name="q1" value="A" checked>
+					  <label for="male">(A) 2 apples</label><br>
+					</div>
+					<div class="form-check my-2 text-white-50">
+					  <input type="radio" name="q1" value="B">
+					  <label for="female">(B) 4 apples</label><br>
+					</div>
+					<div class="form-check my-2 text-white-50">
+					  <input type="radio" name="q1" value="C">
+					  <label for="other">(C) 6 apples</label>	
+					</div>	  
+				</div>
+
+				<div class="question my-5">
+					<p class="lead font-weight-normal">2. What is the sum of 1 carabao and 3 carabaos</p>
+					<div class="form-check my-2 text-white-50">
+					  <input type="radio" name="q2" value="A" checked>
+					  <label for="male">(A) 2 carabaos</label><br>
+					</div>
+					<div class="form-check my-2 text-white-50">
+					  <input type="radio" name="q2" value="B">
+					  <label for="female">(B) 4 carabaos</label><br>
+					</div>
+					<div class="form-check my-2 text-white-50">
+					  <input type="radio" name="q2" value="C">
+					  <label for="other">(C) 6 carabaos</label>	
+					</div>	  
+				</div>
+
+				<div class="question my-5">
+					<p class="lead font-weight-normal">3. What is the sum of 1 pen and 3 pens</p>
+					<div class="form-check my-2 text-white-50">
+					  <input type="radio" name="q3" value="A" checked>
+					  <label for="male">(A) 2 pens</label><br>
+					</div>
+					<div class="form-check my-2 text-white-50">
+					  <input type="radio" name="q3" value="B">
+					  <label for="female">(B) 4 pens</label><br>
+					</div>
+					<div class="form-check my-2 text-white-50">
+					  <input type="radio" name="q3" value="C">
+					  <label for="other">(C) 6 pens</label>	
+					</div>	  
+				</div>
+
+				<div class="question my-5">
+					<p class="lead font-weight-normal">4. What is the sum of 1 banana and 3 bananas</p>
+					<div class="form-check my-2 text-white-50">
+					  <input type="radio" name="q4" value="A" checked>
+					  <label for="male">(A) 2 bananas</label><br>
+					</div>
+					<div class="form-check my-2 text-white-50">
+					  <input type="radio" name="q4" value="B">
+					  <label for="female">(B) 4 bananas</label><br>
+					</div>
+					<div class="form-check my-2 text-white-50">
+					  <input type="radio" name="q4" value="C">
+					  <label for="other">(C) 6 bananas</label>	
+					</div>	  
+				</div>
+
+				<div class="question my-5">
+					<p class="lead font-weight-normal">5. What is the sum of 1 bird and 3 birds</p>
+					<div class="form-check my-2 text-white-50">
+					  <input type="radio" name="q5" value="A" checked>
+					  <label for="male">(A) 2 birds</label><br>
+					</div>
+					<div class="form-check my-2 text-white-50">
+					  <input type="radio" name="q5" value="B">
+					  <label for="female">(B) 4 birds</label><br>
+					</div>
+					<div class="form-check my-2 text-white-50">
+					  <input type="radio" name="q5" value="C">
+					  <label for="other">(C) 6 birds</label>	
+					</div>	
+					<div class="my-5">
+						<input type="submit" value="SUBMIT">
+					</div>  
+				</div>
+			</form>
+		</div>
+	</div>
+
+<script src="quiz.js">
+
+</script>
+</body>
+</html>
